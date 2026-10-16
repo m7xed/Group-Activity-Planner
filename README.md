@@ -53,4 +53,4 @@ Our backlog, sprints and progress are public: [Group Activity Planner board](htt
 ## Team
 
 - **Max Field** - [@mrfield-dev](https://github.com/mrfield-dev)
-- **Oli Kay** - GitHub link coming soon
+- **Oli Kay** - [@Pingu1311](https://github.com/Pingu1311)
