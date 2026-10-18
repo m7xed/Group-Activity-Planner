@@ -1,6 +1,6 @@
 # ADR 0001: Python Version
 
-**Status:** Approved\
+**Status:** Accepted\
 **Date:** 2026-10-17\
 **Deciders:** Max Field, Oli Kay
 
