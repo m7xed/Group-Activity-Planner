@@ -40,6 +40,30 @@ Plans often fall through the cracks when a group tries to organise something tog
 | AI | Claude API, Langfuse |
 | Dev environment | Docker, Dev Containers |
 
+## Running locally
+
+### Backend
+
+Requires [uv](https://docs.astral.sh/uv/getting-started/installation/).
+
+```bash
+cd backend
+uv sync                                  # install dependencies from uv.lock
+uv run fastapi dev src/backend/main.py   # start the dev server with auto-reload
+```
+
+Then open:
+- http://localhost:8000/health: should return `{"status": "ok"}`
+- http://localhost:8000/docs: interactive API documentation
+
+Run the tests and checks:
+
+```bash
+uv run pytest                 # tests
+uv run ruff check             # lint
+uv run ruff format --check    # formatting
+```
+
 ## Project board
 
 Our backlog, sprints and progress are public: [Group Activity Planner board](https://github.com/users/mrfield-dev/projects/1)
@@ -54,3 +78,4 @@ Our backlog, sprints and progress are public: [Group Activity Planner board](htt
 
 - **Max Field** - [@mrfield-dev](https://github.com/mrfield-dev)
 - **Oli Kay** - [@Pingu1311](https://github.com/Pingu1311)
+
